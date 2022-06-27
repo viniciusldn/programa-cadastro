@@ -1,0 +1,5 @@
+ignore_files:
+  - pom.xml
+  - src/main/java/
+  - mvnw
+  - .mvn/

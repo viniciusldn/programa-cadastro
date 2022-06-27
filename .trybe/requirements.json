@@ -1,0 +1,36 @@
+{
+  "requirements": [
+    {
+      "description": "1 - Cadastra um cliente com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "2 - Tenta cadastrar um cliente sem nome e recebe dados inválidos.",
+      "bonus": false
+    },
+    {
+      "description": "3 - Tenta cadastrar um cliente com nome vazio e recebe internal server error.",
+      "bonus": false
+    },
+    {
+      "description": "4 - Tenta obter um cadastro com id inválido e recebe bad request.",
+      "bonus": false
+    },
+    {
+      "description": "5 - Tenta obter um cadastro com id que não está cadastrado e recebe bad request.",
+      "bonus": false
+    },
+    {
+      "description": "6 - Tenta obter um cadastro protegido e recebe status 403.",
+      "bonus": false
+    },
+    {
+      "description": "7 - Obtém um cadastro com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "8 - Obtém o retorno do endpoint de echo.",
+      "bonus": false
+    }
+  ]
+}
