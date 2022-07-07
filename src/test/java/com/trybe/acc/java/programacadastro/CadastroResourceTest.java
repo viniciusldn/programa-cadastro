@@ -59,7 +59,7 @@ public class CadastroResourceTest {
   }
 
   @Test
-  @DisplayName("6 - Tenta obter um cadastro protegido e recebe status 403.")
+  @DisplayName("6 - Tenta obter um cadastro protegido e recebe status 401.")
   public void testObterIdProtegido() {
     DadosCadastro data = new DadosCadastro();
     data.setNome("abc ribeiro");
